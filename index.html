@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="title" >Shopping Bag total: <span id="total">0</span> <span>$</span> </h1>
+        <hr class="ligne"> 
+        <div class="shop1" id="part1">
+            <span class="x" onclick="remove1()">X</span>
+            <span class="heart"  id="hearts1" onclick="heart1()">♥</span>
+            <img class="image" src="images/a96bdbf682e8fca36e3d1cf401406252.jpg" >
+            <p>Sbedri</p>
+            <span class="plus"  onclick="more1()">+</span>
+            <span id="quantites1" >0</span> 
+            <span class="moins" onclick="less1()">-</span>
+            <p ><span id="prices1">0</span> $</p>
+        </div>
+        <hr class="ligne1"> 
+        <div class="shop2" id="part2">
+            <span class="x"  onclick="remove2()">X</span>
+            <span  class="heart" id="hearts2" onclick="heart2()" >♥</span>
+            <img class="image" src="images/Femme Vêtements Shopping en ligne CARTOON Noir Noir Sweat shirt à empiècement façon blouse.jpg" >
+            <p>Shirt</p>
+            <span class="plus"  onclick="more2()">+</span>
+            <span id="quantites2">0</span>
+            <span class="moins" onclick="less2()">-</span>
+            <p ><span id="prices2">0</span> $</p>
+        </div>
+        <hr class="ligne2">
+        <div class="shop3" id="part3">
+            <span class="x"  onclick="remove3()">X</span>
+            <span  class="heart"  id="hearts3" onclick="heart3()">♥</span>
+            <img class="image" src="images/Femme-43355996-385.jpg" >
+            <p>Sac</p>
+            <span class="plus"  onclick="more3()">+</span>
+            <span id="quantites3">0</span>
+            <span class="moins" onclick="less3()">-</span>
+            <p ><span id="prices3">0</span> $</p>
+
+        </div>
+    </div>
+    
+</body>
+<script src="./script.js"></script>
+</html>
